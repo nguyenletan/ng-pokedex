@@ -1,0 +1,15 @@
+:host {
+  width: 120px;
+  height: 120px;
+}
+
+.poke-cell {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background: #FFF no-repeat;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  background-image: url("../../../assets/sprites.png");
+}

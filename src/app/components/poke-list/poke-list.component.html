@@ -1,0 +1,5 @@
+<section class="poke-list">
+
+  <app-poke-cell *ngFor="let cell of cells" [id]="cell.id" [pokeClass]="cell.pokeClass" (clicked)="onClick($event)">></app-poke-cell>
+
+</section>
