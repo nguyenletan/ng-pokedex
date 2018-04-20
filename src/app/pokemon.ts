@@ -1,8 +1,8 @@
 class Pokemon {
-  private id: string;
-  private name: string;
-  private sprite: string;
-  private type: string;
+  public id: string;
+  public name: string;
+  public sprite: string;
+  public type: string;
   constructor(data) {
     this.id = data.id;
     this.name = data.name;
